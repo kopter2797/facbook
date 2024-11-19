@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+    list-style: none;
+}
+/* navbar css */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color:#637081;
+}
+.nav .menu{
+    display: flex;
+    gap: 30px; 
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    border: white solid 2px;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+.menu li a:hover{
+    background-color: white;
+    color: rgb(0, 13, 131);
+    transition: all .42s;
+}
+.img-icon img{
+    width: 50px;
+    height: auto;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+/* container css */
+.container {
+    background-color:#ACCBE1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    padding: 165px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container .box{
+    padding: 15px 0px;
+}
+.container .text{
+    color: white;
+}
+.img-people img{
+    margin-top: 5px;
+    width: 150px;
+    height: auto;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+/* footer css */
+.footer {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    background: #536B78;
+  }
+  .footer .footer-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 35px 0px;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: #fff;
+  }
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+  }
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ffffff ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+   .footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .footer-col form button:hover {
+    background: #cecccc;
+  }
