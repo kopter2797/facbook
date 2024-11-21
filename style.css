@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+    list-style: none;
+}
+/* navbar css */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color:#637081;
+}
+.nav .menu{
+    display: flex;
+    gap: 30px; 
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    border: white solid 2px;
+    border-radius: 15px;
+    padding: 15px 15px;
+    transition: all .42s;
+}
+.menu li a:hover{
+    background-color: white;
+    color: rgb(0, 13, 131);
+    transition: all .42s;
+}
+.img-icon img{
+    width: 50px;
+    height: auto;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+/* container css */
+.container {
+    background-color:#ACCBE1;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 15px;
+    padding: 165px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container .box{
+    padding: 15px 0px;
+}
+.container .text{
+    font-size: larger;
+    margin-top: -100px;
+    margin-bottom: 25px;
+    color: white;
+}
+.img-people img{
+    margin-top: 5px;
+    width: 150px;
+    height: auto;
+    border: white solid 2px;
+    border-radius: 10px;
+    transition: all .42s;
+    cursor: pointer;
+}
+.img-people img:hover{
+  transform: scale(1.1);
+  transition: all .42s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gridpeople-img{
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.gridpeople-img p{
+  color: white;
+}
+
+.text-us{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.text-us h1{
+  color: white;
+}
+.text-us p{
+  color: white;
+}
+
+.people-it img{  
+  border: #637081 solid 5px;
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  transition: all .42s;
+  cursor: pointer;
+}
+.people-it img:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: translate(2.1);
+  transition: all .42s;
+}
+
+/* footer css */
+.footer {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    background: #536B78;
+  }
+  .footer .footer-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 35px 0px;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: #fff;
+  }
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+  }
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ffffff ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+   .footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .footer-col form button:hover {
+    background: #cecccc;
+  }
